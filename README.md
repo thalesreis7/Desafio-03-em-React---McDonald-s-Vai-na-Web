@@ -1,4 +1,4 @@
-# Desafio McDonald's/ Vai na Web 🚀
+# Desafio McDonald's/ [Vai na Web](https://github.com/VaiNaWeb) 🚀
 
 ## 📚 O que foi utilizado:
 - Organização e estrutura de pastas
@@ -10,7 +10,7 @@
 - React routers
 
 ## 📌 Objetivo:
-Criar um projeto em React seguindo o layout do figma, junto com todos as metodologias aprendidas em aula no Vai na Web, para criar um projeto bonito e bem estruturado em React
+Criar um projeto em React seguindo o layout do [figma](https://www.figma.com/file/JRYdr0RqOO7Dvw1xVSzaEh/Untitled?type=design&node-id=0-1&mode=design&t=KotwEvX711Jwfpnm-0), junto com todos as metodologias aprendidas em aula no Vai na Web, para criar um projeto bonito e bem estruturado em React.
 
 ## 👨‍💻 Linguagem  e Framework utilizado:
 <div>
