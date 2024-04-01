@@ -1,7 +1,7 @@
 import Footer from "../../Footer/Footer";
 import Header from "../../Header/Header";
 import appbackground from "../../../assets/appbackground.png";
-import * as S from "./appPage_styled";
+import * as S from "../../Styles/appPage_styled";
 import Card from "../../Card/Card";
 import appgoogle from "../../../assets/appgoogle.jpg"
 import appios from "../../../assets/appios.jpg"
@@ -22,10 +22,10 @@ export default function AppPage() {
       <S.SectionTwo>
         <S.BoxCard>
             <S.SecondBox>
-             <Card image={appgoogle} text={"Android"}/>
+             <Card image={appgoogle} text={"Android"} buttonText={"Baixe o app"}/>
             </S.SecondBox>
             <S.SecondBox>
-             <Card  image={appios} text={"IOS"}/> 
+             <Card  image={appios} text={"IOS"} buttonText={"Baixe o app"}/> 
             </S.SecondBox>
         </S.BoxCard>
       </S.SectionTwo>

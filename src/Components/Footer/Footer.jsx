@@ -1,4 +1,4 @@
-import * as S from "./footer_styled"
+import * as S from "../Styles/footer_styled"
 import logo from "../../assets/logo.svg"
 import playstore from "../../assets/playstore.svg"
 import appstore from "../../assets/appstore.svg"

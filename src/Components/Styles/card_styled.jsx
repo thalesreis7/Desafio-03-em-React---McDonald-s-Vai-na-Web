@@ -38,7 +38,7 @@ export const Card = styled.div`
         border: none;
         width: 10vw;
         position: relative;
-        bottom: 3%;
+        bottom: 2%;
         cursor: pointer;
         &:hover{
             background-color: red;

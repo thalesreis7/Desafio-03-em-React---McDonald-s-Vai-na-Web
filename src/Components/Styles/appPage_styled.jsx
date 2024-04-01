@@ -49,9 +49,6 @@ export const Text = styled.p`
     font-size: 1rem;
     font-weight: 200;
     color: #292929;
-    position: relative;
-    bottom: 20%;
-
 `
 export const SectionTwo = styled.section`
     /* border: solid 1px red; */
@@ -66,12 +63,15 @@ export const  BoxCard = styled.div`
     justify-content: space-between;
     height: 100%;
     width: 80%;
+    position: absolute;
     img{
-        /* border: solid 1px; */
+        border: solid 1px;
         width: 30vw;
     }
     button{
         border-radius: 3px;
+        position:relative;
+        top: 1%;
     }
 `
 export const SecondBox = styled.div`

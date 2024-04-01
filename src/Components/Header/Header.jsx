@@ -1,4 +1,4 @@
-import * as S from "./header_styled";
+import * as S from "../Styles/header_styled";
 import logo from "../../assets/logo.svg"
 import app from "../../assets/app.svg"
 import celular from "../../assets/celular.svg"
@@ -18,7 +18,7 @@ export default function Header() {
                 <Link to="/appPage">Baixe o App</Link>
             </S.App>
             <S.App color="#FFC72C">
-                <Link to="/NotFound404">Peça seu Mequi</Link>
+                <Link to="/Pedidos">Peça seu Mequi</Link>
                 <img src={celular} alt="Imagem ilustrando um celular"/>
             </S.App>
             </S.BoxCard>

@@ -1,7 +1,7 @@
 import Footer from "../../Footer/Footer";
 import Header from "../../Header/Header";
 import bigmac from "../../../assets/bigmac.svg"
-import * as S from "./notfound404_styled"
+import * as S from "../../Styles/notfound404_styled"
 import { Link } from "react-router-dom";
 
 export default function NotFound404() {

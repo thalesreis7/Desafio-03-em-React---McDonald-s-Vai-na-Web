@@ -27,6 +27,10 @@ export const BoxCard = styled.div`
     width: 80vw;
     ${Center}
     justify-content:space-around;
+    img{
+        height:23.5vh;
+    }
+
 `
 export const Section = styled.section`
     /* border: solid 1px red; */
