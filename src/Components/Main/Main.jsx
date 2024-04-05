@@ -13,35 +13,35 @@ import { useEffect, useState } from "react"
 export default function Main() {
 
   const [item, setItem] = useState(bigmac)
-  const [backcolor, Setbackcolor] = useState("#FEB706")
-  const [color, Setcolor] = useState("#DB0007")
-  const [pColor, SetpColor] = useState("#FFFF")
+  const [backcolor, setBackcolor] = useState("#FEB706")
+  const [color, setColor] = useState("#DB0007")
+  const [pColor, setPColor] = useState("#FFFF")
 
   useEffect(()=>{
     if(item === bigmac){
-      Setbackcolor();
+      setBackcolor();
     }else if (item === batata){
-      Setbackcolor("#DB0007");
+      setBackcolor("#DB0007");
     }else if (item === sorvete){
-      Setbackcolor("#FFFF")
+      setBackcolor("#FFFF")
     }
   },[item]);
 
   useEffect(()=>{
     if(item === bigmac){
-      Setcolor();
+      setColor();
     }else if(item === batata){
-      Setcolor("#FEB706");
+      setColor("#FEB706");
     }
   },[item]);
 
   useEffect(()=>{
     if(item === bigmac){
-      SetpColor();
+      setPColor();
     }else if(item === batata){
-      SetpColor();
+      setPColor();
     }else if(item === sorvete){
-      SetpColor("#DB0007");
+      setPColor("#DB0007");
     }
   },[item]);
   return (
