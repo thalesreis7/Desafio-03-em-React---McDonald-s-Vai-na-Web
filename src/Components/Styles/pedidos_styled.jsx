@@ -41,7 +41,7 @@ export const BoxLi = styled.ul`
     }
 `
 export const Section = styled.section`
-    border: solid 1px red;
+    /* border: solid 1px red; */
     height: 89vh;
     ${Center}
     align-items: start;
@@ -50,7 +50,7 @@ export const Section = styled.section`
     }
 `
 export const SectionTwo = styled.section`
-    border: solid 1px red;
+    /* border: solid 1px red; */
     height: 90vh;
     ${Center}
     align-items: start;

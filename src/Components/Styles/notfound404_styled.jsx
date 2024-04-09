@@ -52,7 +52,7 @@ export const Text = styled.p`
     font-weight: 300;
     color: white;
     position: relative;
-    bottom: 7%;
+    bottom: 1%;
 `
 export const Btn = styled.button`
     border: solid 1px yellowgreen;
